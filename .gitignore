@@ -1,0 +1,21 @@
+# Build output
+target/
+*.class
+
+# Maven wrapper downloads (the wrapper is script-only)
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
+
+# Local databases created while trying the CLI
+/data/
+*.sst
+*.wal
+*.log
